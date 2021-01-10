@@ -1,6 +1,9 @@
 img{
    width: 250px; 
    height: 200px;
+   border: 2px;
+   border-style:dashed;
+   border-color:gold;
 }
 body{
     background-color: rgb(75, 61, 80);
@@ -48,4 +51,9 @@ body{
 
 .imagetext:hover p{
     opacity: 1;
+}
+.vidstyle{
+border: 2px;
+border-style: dashed; 
+border-color: gold;   
 }
