@@ -1,0 +1,51 @@
+img{
+   width: 250px; 
+   height: 200px;
+}
+body{
+    background-color: rgb(75, 61, 80);
+    color: rgb(196, 193, 12);
+    
+}
+.centerStyle{
+    display:block;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.centerStyle h1,h2,.flexStyle{
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.flexStyle {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.imagetext img:hover{
+    width: 300px; 
+    height: 300px;
+    filter: sepia(100%) saturate(300%) brightness(20%) hue-rotate(180deg);
+    opacity: 80%;
+}
+
+.imagetext{
+    width: 300px; 
+    height: 300px;
+    position: relative;
+}
+.imagetext p{
+    opacity: 0;
+    word-wrap: normal;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(252, 191, 191);
+}
+
+.imagetext:hover p{
+    opacity: 1;
+}
